@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ojo Toba Rufus || Portfolio Page</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/slider/me2.png">
+    <!-- CSS
+    ============================================ -->
+    <link href="~/assets/css/vendor/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/assets/css/vendor/slick.css" rel="stylesheet" />
+    <link href="~/assets/css/vendor/slick-theme.css" rel="stylesheet" />
+    <link href="~/assets/css/vendor/aos.css" rel="stylesheet" />
+    <link href="~/assets/css/plugins/feature.css" rel="stylesheet" />
+    <link href="~/assets/css/style.css" rel="stylesheet" />
+    <!-- Style css -->
+    <style>
+        .slick-arrow-style-one.arrow-top-align .slide-arrow {
+            top: -10% !important;
+        }
+
+        .rn-section-gap {
+            margin: 10px auto !important;
+            padding-top: 10px !important;
+            padding-bottom: 50px !important;
+        }
+
+        .rn-testimonial-area {
+            margin-bottom: 40px !important;
+        }
+    </style>
+</head>
+<body class="template-color-1 home-sticky spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="150">
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="~/assets/js/vendor/jquery.js"></script>
+    <script src="~/assets/js/vendor/modernizer.min.js"></script>
+    <script src="~/assets/js/vendor/feather.min.js"></script>
+    <script src="~/assets/js/vendor/slick.min.js"></script>
+    <script src="~/assets/js/vendor/bootstrap.js"></script>
+    <script src="~/assets/js/vendor/text-type.js"></script>
+    <script src="~/assets/js/vendor/wow.js"></script>
+    <script src="~/assets/js/vendor/aos.js"></script>
+    <script src="~/assets/js/vendor/particles.js"></script>
+    <!-- main JS -->
+    <script src="~/assets/js/main.js"></script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
