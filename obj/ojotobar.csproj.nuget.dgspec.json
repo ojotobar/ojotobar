@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\source\\repos\\ojotobar\\ojotobar.csproj": {}
+    "C:\\ToExport\\Projects\\ojotobar\\ojotobar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\source\\repos\\ojotobar\\ojotobar.csproj": {
+    "C:\\ToExport\\Projects\\ojotobar\\ojotobar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\ojotobar\\ojotobar.csproj",
+        "projectUniqueName": "C:\\ToExport\\Projects\\ojotobar\\ojotobar.csproj",
         "projectName": "ojotobar",
-        "projectPath": "C:\\Users\\hp\\source\\repos\\ojotobar\\ojotobar.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\source\\repos\\ojotobar\\obj\\",
+        "projectPath": "C:\\ToExport\\Projects\\ojotobar\\ojotobar.csproj",
+        "packagesPath": "C:\\Users\\tojo\\.nuget\\packages\\",
+        "outputPath": "C:\\ToExport\\Projects\\ojotobar\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tojo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -73,12 +76,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.12, 5.0.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -87,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
